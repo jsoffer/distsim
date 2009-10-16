@@ -1,0 +1,6 @@
+Se realizaron las siguientes modificaciones para permitir compilación en GCC4:
+
+A los archivos que utilizan 'cin' o 'cout':
+
+Se les agregó la declaración de encabezado '#include <iostream>'.
+Se modificó cada instancia de 'cin' por 'std::cin' y de 'cout' por 'std::cout'.
